@@ -17,6 +17,8 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'gibbon'
+
 gem 'postmark-rails'
 
 group :development do

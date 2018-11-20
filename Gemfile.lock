@@ -71,9 +71,14 @@ GEM
       railties (>= 3.2, < 6.0)
     erubi (1.7.1)
     execjs (2.7.0)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
     font-awesome-sass (5.0.13)
       sassc (>= 1.11)
+    gibbon (3.2.0)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.1.1)
@@ -103,6 +108,7 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.4)
     multi_json (1.13.1)
+    multipart-post (2.0.0)
     nio4r (2.3.1)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
@@ -222,6 +228,7 @@ DEPENDENCIES
   devise
   dotenv-rails
   font-awesome-sass (~> 5.0.9)
+  gibbon
   jbuilder (~> 2.0)
   letter_opener
   listen (~> 3.0.5)
