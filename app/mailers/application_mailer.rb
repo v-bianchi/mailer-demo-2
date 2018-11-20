@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'support@lewagon.com'
+default from: 'tsvyoaok@pokemail.net'
   layout 'mailer'
 end
